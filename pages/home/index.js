@@ -27,7 +27,7 @@ function Home() {
           </h1>
         </div>
         <div className="animate">
-          <h2>Software Engineer</h2>
+          <h2>FullStack Engineer</h2>
         </div>
         <p>
           Hi, My name is Galsanpuntag Bat-Orshikh. i'm 21 years old. I study
