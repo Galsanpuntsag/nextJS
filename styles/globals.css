@@ -1,0 +1,201 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #4b0082;
+  --second-color: #adff2f;
+  --text-color: #f8f8ff;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #0c1022;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-boxs;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.7rem 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 5rem;
+  font-weight: 800;
+  font-style: italic;
+  color: #adff2f;
+}
+
+.navbar a {
+  font-size: 1rem;
+  color: #adff2f;
+  font-weight: 400;
+  margin-left: 3rem;
+  transition: 0.1s;
+}
+
+.navbar a:hover {
+  color: grey;
+}
+
+a.active {
+  color: #adff2f;
+}
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+}
+
+.homeContant {
+  max-width: 35rem;
+}
+
+h1 {
+  font-size: 40px;
+  color: #f8f8ff;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.animate {
+  position: relative;
+  width: 500px;
+  -webkit-text-stroke: 0.9px var(--second-color);
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.homeContant p {
+  color: var(--second-color);
+  font-size: 24px;
+  font-weight: 400px;
+  margin-bottom: 20px;
+}
+.downloud {
+  width: 200px;
+  height: 40px;
+  -webkit-text-stroke: 0.9px var(--second-color);
+  border-radius: 30px;
+  font-size: 30px;
+}
+
+.iconimg {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 50px;
+  gap: 30px;
+}
+
+.iconimg svg {
+  width: 50px;
+  height: 50px;
+  background-color: #adff2f;
+  border-radius: 50px;
+  padding: 5px;
+}
+.icon svg :hover {
+  background-color: #0c1022;
+}
+
+.myinfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 100px;
+
+  padding-right: 100px;
+}
+
+.mybox1 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.aboutme {
+  font-size: 50px;
+  font-weight: 900;
+  font-style: italic;
+  color: orange;
+}
+
+.myimg img {
+  width: 500px;
+  height: 100%;
+  border-radius: 30px;
+  margin-top: 250px;
+  margin-right: 100px;
+}
+.mytext p {
+  max-width: 600px;
+  color: orange;
+  font-weight: 400;
+  font-size: 20px;
+}
+.vl {
+  border-left: 3px solid orange;
+  height: 500px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.edu {
+  display: flex;
+  flex-direction: row;
+  width: 35%;
+  height: 550px;
+  background-color: gray;
+  margin-top: 180px;
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.experiece li {
+  font-size: 16px;
+  max-width: 50rem;
+  color: white;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+.experiece {
+}
+
+h3 {
+  color: orange;
+  font-size: 30px;
+  margin-left: 40px;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
