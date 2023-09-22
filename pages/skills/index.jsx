@@ -2,6 +2,7 @@ import React from "react";
 import Techskill from "../components/Techskill";
 import Proskill from "../components/Proskill";
 import MyApp from "../components/MyApp";
+
 const Skills = () => {
   return (
     <div className=" text-[#adff2f]">

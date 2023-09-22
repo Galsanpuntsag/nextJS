@@ -1,5 +1,6 @@
 import React from "react";
-import MyApp from "../components/myapp";
+
+
 function About() {
   console.log("hello");
   return (

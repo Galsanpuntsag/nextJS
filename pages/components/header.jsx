@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 import About from "../about";
 
