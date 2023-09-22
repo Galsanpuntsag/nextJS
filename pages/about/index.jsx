@@ -16,7 +16,6 @@ function About() {
               you Jerry at that moment, I <em>was</em> a marine biologist.
             </p>
           </div>
-          <MyApp />
         </div>
         <div className="myimg">
           <img src="https://i.pinimg.com/474x/88/d5/99/88d599064d49fcc6219456cacf681b4f.jpg"></img>

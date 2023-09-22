@@ -8,25 +8,37 @@ import ServiceCard from "../components/ServiceCard";
 const cards = [
   {
     icon: <MdOutlineDeveloperMode />,
-    text: "bbcccc",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugiat recusandae sed magnam, ad praesentium, repellendus ducimus debitis accusamus harum enim corrupti voluptates consectetur quod facere doloribus, rerum dolor sunt?",
   },
   {
     icon: <FaPaintBrush />,
-    text: "bbbb",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugiat recusandae sed magnam, ad praesentium, repellendus ducimus debitis accusamus harum enim corrupti voluptates consectetur quod facere doloribus, rerum dolor sunt?",
   },
   {
     icon: <RiServiceFill />,
-    text: "aaaaa",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugiat recusandae sed magnam, ad praesentium, repellendus ducimus debitis accusamus harum enim corrupti voluptates consectetur quod facere doloribus, rerum dolor sunt?",
+  },
+  {
+    icon: <MdOutlineDeveloperMode />,
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugiat recusandae sed magnam, ad praesentium, repellendus ducimus debitis accusamus harum enim corrupti voluptates consectetur quod facere doloribus, rerum dolor sunt?",
+  },
+  {
+    icon: <FaPaintBrush />,
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugiat recusandae sed magnam, ad praesentium, repellendus ducimus debitis accusamus harum enim corrupti voluptates consectetur quod facere doloribus, rerum dolor sunt?",
+  },
+  {
+    icon: <RiServiceFill />,
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fugiat recusandae sed magnam, ad praesentium, repellendus ducimus debitis accusamus harum enim corrupti voluptates consectetur quod facere doloribus, rerum dolor sunt?",
   },
 ];
 
 const Services = () => {
   return (
-    <div className="flex justify-center items-center box-border h-4/6 mx-auto bg-transparent mt-[100px] flex-col ">
+    <div className="flex justify-center items-center box-border h-4/6  bg-transparent mt-[50px] ">
       <IconContext.Provider
-        value={{ size: "2rem", color: "#adff2f", display: "flex" }}
+        value={{ size: "2rem", color: "#0c1022", display: "flex" }}
       >
-        <div className="flex pt-[30px]">
+        <div className="flex grid grid-cols-3 grid-rows-2 gap-1 mt-[80px]">
           {cards.map((card) => (
             <ServiceCard icon={card.icon} text={card.text} />
           ))}
@@ -37,83 +49,3 @@ const Services = () => {
 };
 
 export default Services;
-
-{
-  /* <div className="box-border mr-[30px] h-72 w-80  bg-gradient-to-br from-[#2800FE] from-2.8% via-[#FE00EB] via-100% rounded-3xl">
-            <FaPaintBrush />
-            <h10>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              tenetur optio pariatur ducimus accusamus nam sunt ipsa iusto odit?
-              Nulla adipisci voluptas nihil sit quam fugit harum molestias minus
-              sequi!
-            </h10>
-            <a
-              href="#"
-              className="flex h-[30px] w-[120px] bg-gradient-to-br from-[#FE00EB] from-1%  via-[#adff2f] via-100% justify-center "
-            >
-              Read More
-            </a>
-          </div>
-          <div className="box-border h-72 w-80  bg-gradient-to-br from-[#2800FE] from-2.8% via-[#FE00EB] via-100% rounded-3xl">
-            <RiServiceFill />
-            <h10>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              tenetur optio pariatur ducimus accusamus nam sunt ipsa iusto odit?
-              Nulla adipisci voluptas nihil sit quam fugit harum molestias minus
-              sequi!
-            </h10>
-            <a
-              href="#"
-              className="flex h-[30px] w-[120px] bg-gradient-to-br from-[#FE00EB] from-1%  via-[#adff2f] via-100% justify-center "
-            >
-              Read More
-            </a>
-          </div>
-        </div>
-        <div className="flex mt-[50px] pb-[30px]">
-          <div className="box-border mr-[30px] h-72 w-80 bg-gradient-to-br from-[#2800FE] from-2.8% via-[#FE00EB] via-100% rounded-3xl">
-            <MdOutlineDeveloperMode />
-            <h10>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              tenetur optio pariatur ducimus accusamus nam sunt ipsa iusto odit?
-              Nulla adipisci voluptas nihil sit quam fugit harum molestias minus
-              sequi!
-            </h10>
-            <a
-              href="#"
-              className="flex h-[30px] w-[120px] bg-gradient-to-br from-[#FE00EB] from-1%  via-[#adff2f] via-100% justify-center "
-            >
-              Read More
-            </a>
-          </div>
-          <div className="box-border mr-[30px] h-72 w-80  bg-gradient-to-br from-[#2800FE] from-2.8% via-[#FE00EB] via-100% rounded-3xl">
-            <FaPaintBrush />
-            <h10>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              tenetur optio pariatur ducimus accusamus nam sunt ipsa iusto odit?
-              Nulla adipisci voluptas nihil sit quam fugit harum molestias minus
-              sequi!
-            </h10>
-            <a
-              href="#"
-              className="flex h-[30px] w-[120px] bg-gradient-to-br from-[#FE00EB] from-1%  via-[#adff2f] via-100% justify-center "
-            >
-              Read More
-            </a>
-          </div>
-          <div className="box-border h-72 w-80  bg-gradient-to-br from-[#2800FE] from-2.8% via-[#FE00EB] via-100% rounded-3xl">
-            <RiServiceFill />
-            <h10>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-              tenetur optio pariatur ducimus accusamus nam sunt ipsa iusto odit?
-              Nulla adipisci voluptas nihil sit quam fugit harum molestias minus
-              sequi!
-            </h10>
-            <a
-              href="#"
-              className="flex h-[30px] w-[120px] bg-gradient-to-br from-[#FE00EB] from-1%  via-[#adff2f] via-100% justify-center "
-            >
-              Read More
-            </a>
-          </div> */
-}

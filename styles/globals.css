@@ -46,7 +46,7 @@ body {
   font-size: 1rem;
   color: #adff2f;
   font-weight: 400;
-  margin-left: 3rem;
+  margin-left: 2rem;
   transition: 0.1s;
 }
 
@@ -61,15 +61,6 @@ a.active {
 section {
   min-height: 100vh;
   padding: 10rem 9% 2rem;
-}
-
-.home {
-  display: flex;
-  align-items: center;
-}
-
-.homeContant {
-  max-width: 35rem;
 }
 
 h1 {
@@ -88,8 +79,7 @@ h1 {
   font-weight: 500;
   margin-bottom: 20px;
 }
-
-.homeContant p {
+p {
   color: var(--second-color);
   font-size: 24px;
   font-weight: 400px;
@@ -142,24 +132,24 @@ h1 {
   font-size: 50px;
   font-weight: 900;
   font-style: italic;
-  color: orange;
+  color: var(--second-color);
 }
 
 .myimg img {
   width: 500px;
   height: 100%;
   border-radius: 30px;
-  margin-top: 250px;
+  margin-top: 120px;
   margin-right: 100px;
 }
 .mytext p {
   max-width: 600px;
-  color: orange;
+  color: var(--second-color);
   font-weight: 400;
   font-size: 20px;
 }
 .vl {
-  border-left: 3px solid orange;
+  border-left: 3px solid #adff2f;
   height: 500px;
   margin-top: 25px;
   margin-left: 50px;
@@ -169,25 +159,23 @@ h1 {
   flex-direction: row;
   width: 35%;
   height: 550px;
-  background-color: gray;
+  background-color: #0c1022;
   margin-top: 180px;
   border-radius: 30px;
   margin-left: 50px;
   margin-bottom: 20px;
+  border: 2px solid #adff2f;
 }
 .experiece li {
   font-size: 16px;
   max-width: 50rem;
-  color: white;
+  color: #adff2f;
   margin-top: 15px;
   margin-left: 30px;
 }
 
-.experiece {
-}
-
 h3 {
-  color: orange;
+  color: #adff2f;
   font-size: 30px;
   margin-left: 40px;
   font-weight: 600;
