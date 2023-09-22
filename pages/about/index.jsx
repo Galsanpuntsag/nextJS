@@ -1,10 +1,11 @@
 import React from "react";
-
+import Navbar from "../components/Navbar";
 
 function About() {
   console.log("hello");
   return (
     <div className="">
+      <Navbar />
       <div className="mybox1">
         <div className="myinfo">
           <div className="aboutme ">About.</div>

@@ -4,6 +4,7 @@ import { FaPaintBrush } from "react-icons/fa";
 import { RiServiceFill } from "react-icons/ri";
 import { IconContext } from "react-icons";
 import ServiceCard from "../components/ServiceCard";
+import Navbar from "../components/Navbar";
 
 const cards = [
   {
@@ -34,6 +35,7 @@ const cards = [
 
 const Services = () => {
   return (
+    <div className=""><Navbar/>
     <div className="flex justify-center items-center box-border h-4/6  bg-transparent mt-[50px] ">
       <IconContext.Provider
         value={{ size: "2rem", color: "#0c1022", display: "flex" }}
@@ -44,7 +46,7 @@ const Services = () => {
           ))}
         </div>
       </IconContext.Provider>
-    </div>
+    </div></div>
   );
 };
 

@@ -1,8 +1,7 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Header from './components/header'
-import HomeContent from './components/HomeContent';
-
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import Header from "./components/Header";
+import HomeContent from "./components/HomeContent";
 
 export default function Home() {
   return (
@@ -10,5 +9,5 @@ export default function Home() {
       <Header />
       <HomeContent />
     </>
-  )
+  );
 }
