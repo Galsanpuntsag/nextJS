@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <div className="">
-      <section className="flex  grid grid-cols-2 text-center xl-6/12">
+      <section className="flex  grid grid-cols-2 text-center ">
         <div className="flex flex-col bg-transparent justify-center items-center mb-[100px]">
           <h13 className="max-w-[450px] text-[#adff2f] text-4xl pl-[50px]">
             Hello!
