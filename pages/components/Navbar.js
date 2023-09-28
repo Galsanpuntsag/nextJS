@@ -7,19 +7,19 @@ const Navbar = () => {
     <header className="header">
       <a
         href="/"
-        className="text-2xl text-[#adff2f] italic mt-[20px] items-center"
+        className="text-1xl text-[cyan] italic mt-[20px] items-center"
       >
         <motion.div
-          className="box"
+          className=" p-2"
           animate={{
-            scale: [1, 2, 2, 1, 1],
-            rotate: [0, 0, 180, 180, 0],
-            borderRadius: ["0%", "0%", "50%", "50%", "0%"],
+            scale: [1, 2, 1, 1],
+            rotate: [0, 0, 180, 0],
+            borderRadius: ["50%", "20%", "50%", "0%"],
           }}
           transition={{
             duration: 10,
             ease: "easeInOut",
-            times: [0, 0.2, 0.5, 0.8, 1],
+            times: [0, 0.2, 0.8, 1],
             repeat: Infinity,
             repeatDelay: 1,
           }}

@@ -4,7 +4,7 @@
 
 :root {
   --bg-color: #4b0082;
-  --second-color: #adff2f;
+  --second-color: cyan;
   --text-color: #f8f8ff;
 }
 
@@ -39,23 +39,34 @@ body {
   font-size: 5rem;
   font-weight: 800;
   font-style: italic;
-  color: #adff2f;
+  color: cyan;
 }
 
 .navbar a {
   font-size: 1rem;
-  color: #adff2f;
+  box-shadow:
+    0 0 5px cyan,
+    0 0 25px cyan;
+  color: #0c1022;
   font-weight: 400;
   margin-left: 2rem;
   transition: 0.1s;
+  padding: 4px;
+  border-radius: 20px;
+  background-color: cyan;
 }
 
 .navbar a:hover {
-  color: grey;
+  box-shadow:
+    0 0 5px cyan,
+    0 0 25px cyan,
+    0 0 50px cyan,
+    0 0 100px cyan,
+    0 0 200px cyan;
 }
 
 a.active {
-  color: #adff2f;
+  -webkit-text-stroke: 0.9px var(--second-color);
 }
 
 section {
@@ -80,7 +91,7 @@ h1 {
   margin-bottom: 20px;
 }
 p {
-  color: var(--second-color);
+  -webkit-text-stroke: 0.9px var(--second-color);
   font-size: 24px;
   font-weight: 400px;
   margin-bottom: 20px;
@@ -88,9 +99,12 @@ p {
 .downloud {
   width: 200px;
   height: 40px;
-  -webkit-text-stroke: 0.9px var(--second-color);
+  -webkit-text-stroke: 10px var(#0c1022);
   border-radius: 30px;
-  font-size: 30px;
+  font-size: 25px;
+}
+.downloud :hover {
+  background-color: #adff2f;
 }
 
 .iconimg {
@@ -102,14 +116,22 @@ p {
 }
 
 .iconimg svg {
-  width: 50px;
-  height: 50px;
-  background-color: #adff2f;
+  width: 40px;
+  height: 40px;
+  box-shadow:
+    0 0 5px cyan,
+    0 0 25px cyan;
   border-radius: 50px;
   padding: 5px;
+  background-color: cyan;
 }
-.icon svg :hover {
-  background-color: #0c1022;
+.iconimg svg:hover {
+  box-shadow:
+    0 0 5px cyan,
+    0 0 25px cyan,
+    0 0 50px cyan,
+    0 0 100px cyan,
+    0 0 200px cyan;
 }
 
 .myinfo {
@@ -147,6 +169,7 @@ p {
   color: var(--second-color);
   font-weight: 400;
   font-size: 20px;
+  font-style: italic;
 }
 .vl {
   border-left: 3px solid #adff2f;
