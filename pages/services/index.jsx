@@ -35,18 +35,20 @@ const cards = [
 
 const Services = () => {
   return (
-    <div className=""><Navbar/>
-    <div className="flex justify-center items-center box-border h-4/6  bg-transparent mt-[50px] ">
-      <IconContext.Provider
-        value={{ size: "2rem", color: "#0c1022", display: "flex" }}
-      >
-        <div className="flex grid grid-cols-3 grid-rows-2 gap-1 mt-[80px]">
-          {cards.map((card) => (
-            <ServiceCard icon={card.icon} text={card.text} />
-          ))}
-        </div>
-      </IconContext.Provider>
-    </div></div>
+    <div className="">
+      <Navbar />
+      <div className="flex justify-center items-center box-border h-4/6  bg-transparent mt-[50px] ">
+        <IconContext.Provider
+          value={{ size: "2rem", color: "#0c1022", display: "flex" }}
+        >
+          <div className="flex grid grid-cols-3 grid-rows-2 gap-1 mt-[80px]">
+            {cards.map((card) => (
+              <ServiceCard icon={card.icon} text={card.text} />
+            ))}
+          </div>
+        </IconContext.Provider>
+      </div>
+    </div>
   );
 };
 
